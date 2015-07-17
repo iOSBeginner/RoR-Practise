@@ -1,5 +1,5 @@
 class OneController < ApplicationController
-    def home
-      render 'one/home'
+    def about
+        render 'one/About.html.erb'
     end
 end
