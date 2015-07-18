@@ -6,4 +6,9 @@ class OneController < ApplicationController
     def member
         render 'one/member'
     end
+
+
+    def admin
+        render layout: 'adminLayout'
+    end
 end
